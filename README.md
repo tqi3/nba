@@ -66,3 +66,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Developed a React JS based web application which enables users to search a certain NBA player with help of the “autocomplete” feature, only to acquire the player’s profile info and his efficiency & frequency-tagged visualized shot data with customized filters of minimal displayed shot counts by restricted by the slider or input, the chart type in hexbin or scatter as well as whether to show tooltips; specifically extracted players’ shot data and profile data with API from stats.nba.com, displayed class UIs w/ data & internal logic with CSS and Ant Design (e.g. autocompleting search bar, minimal count Slider etc.), added to the slider the “debounce” function from “lodash”, and drew the filter-controlled shot chart with PropTypes type-checking and D3 package.
